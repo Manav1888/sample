@@ -1,0 +1,30 @@
+
+
+[
+    {
+      "id":1,
+      "imageSrc": "https://assets-global.website-files.com/6449169af38e2c9888c3452c/64882c7c5095aa0426712a32_Scale%20your%20Marketing%20Data%20Warehouse%20Using%20Airflow%20-%20Part%201-p-800.png",
+      "date": "Automation Jun13,2023",
+      "title": "Scale Your Marketing Data Warehouse Using Airglow - Part 2",
+      "description":"Learn how to use Airflow to construct a large-scale marketing data warehouse"
+    },
+    {
+      "id":2,
+      "imageSrc": "https://assets-global.website-files.com/6449169af38e2c9888c3452c/64783474bc34f2bd42cd2b43_Why%20is%20my%20Landing%20Page%20Blank%20in%20GA4%3F-p-500.png",
+      "date": "Question Jun11,2023",
+      "title": "Why Is My Landing Page in Google Analytics Empty (GA4)",
+      "description":"Learn why you are seeing blank landing page in Google Analytics 4 (GA4) reports",
+      "content1": "If you've been using Google Analytics 4 (GA4) and noticed a blank landing page in your reports, you're not alone. This issue is a known limitation within GA4's predefined Landing Page report. But don't worry, your data hasn't disappeared, it's just a bit of a hiccup in how GA4 displays it in the report.\n\nThis blank landing page issue typically arises when your home page URL is configured as your site's domain followed by a newline character. In GA4's Landing Page report, this configuration may be displayed as a blank attribute.",
+      "content2":"One way to tackle this issue is by adding Hostname as a secondary dimension in your Landing Page report. This will provide additional context to the landing page data and can help identify if the blank landing page is indeed your home page. To do this, navigate to your Landing Page report in GA4, click on Add dimension and select Hostname. This will display the domain associated with each landing page, providing a clearer picture of your data.",
+      "img2":"https://assets-global.website-files.com/6449169af38e2c9888c3452c/6478312198d928dcf0813a2d_Screenshot%20at%20Jun%2001%2009-44-48.png",
+      "content3":"Another workaround is to create a custom report where the primary dimension is Landing page + query string. This can be done using the report Library in GA4, provided you have Editor access privileges. By using Landing page + query string as the primary dimension, you'll see the full URL of the landing page, including the /, which will then show your home page URL instead of a blank attribute. This custom report will give you a more accurate representation of your landing page data."
+      
+    }, 
+    {
+      "id":3 ,
+      "imageSrc": "https://assets-global.website-files.com/6449169af38e2c9888c3452c/6491767749e260dbbe2068fc_Automating%20GA4%20Cost%20Data%20Import%20-%20Part%201-p-500.png",
+      "date": "Question Jun20,2022",
+      "title": "Scale Your Marketing Data Warehouse Using Airglow - Part 1"
+    }
+  ]
+  

@@ -1,0 +1,8 @@
+.expanded {
+    transition: all 0.3s ease; 
+    max-height: 500px;
+}
+  
+  .border-2 {
+    transition: max-height 0.3s ease;
+  }
